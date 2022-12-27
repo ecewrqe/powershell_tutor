@@ -1,0 +1,1 @@
+icacls "C:\Program Files (x86)\Surfshark" /grant Users:F

@@ -1,0 +1,17 @@
+[Version]
+Signature="$Windows NT$"
+[Strings]
+szOID_ENHANCED_KEY_USAGE = ""
+szOID_DOCUMENT_ENCRYPTION = ""
+[NewRequest]
+Subject = "cn=aa@xx.com"
+MachineKeySet = false
+KeyLength = 2048
+KeySpec = At_KEYEXCHANGE
+HashAlgorithm = sha1
+Exportable=true
+RequestType=Cert
+KeyUsage = "CERT_KEY_ENCIPHERMENT_KEY_USAGE|CERT_DATA_ENCIPHERMENT_KEYUSAGE"
+ValidityPeriod = "Years"
+ValidityPeriodUnits = "1000"
+
